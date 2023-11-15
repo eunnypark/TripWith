@@ -17,6 +17,6 @@ class SplashActivity: AppCompatActivity() {
             startActivity(start)
             // 현재 액티비티 닫기
             finish()
-        }, 3000)
+        }, 1000)
     }
 }

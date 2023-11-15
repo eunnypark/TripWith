@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/pretendard_semibold"
-            android:text="카카오로 로그인"
+            android:text="@string/kakaologin"
             android:textColor="#788EC7"
             android:textSize="15sp" />
     </LinearLayout>
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="687dp"
         android:fontFamily="@font/pretendard_regular"
-        android:text="로그인 없이 둘러보기"
+        android:text="@string/withoutlogin"
         android:textColor="#8F8E8E"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
