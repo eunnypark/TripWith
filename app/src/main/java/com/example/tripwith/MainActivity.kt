@@ -1,5 +1,6 @@
 package com.example.tripwith
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableString
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         navController?.let {
             bottomNavigationView.setupWithNavController(it)
         }
+
     }
 
 
