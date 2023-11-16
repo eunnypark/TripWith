@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TripWith</string>
+    <string name="login_Title">트립 위드와 즐거운 여행</string>
+    <string name="login_Introduction">매번 똑같은, 외로운 여행 지루하지 않으신가요? \n트립 위드에서 새로운 인연과 함께 여행해요</string>
+    <string name="kakaologin">카카오로 로그인</string>
+    <string name="withoutlogin">로그인 없이 둘러보기</string>
 </resources>
