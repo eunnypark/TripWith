@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".secondpage">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/second_1"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="108dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:fontFamily="@font/pretendardVariable"
+    android:textSize="16dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/second_2"
+    android:layout_marginStart="52dp"
+    android:layout_marginTop="149dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:fontFamily="@font/pretendardVariable"
+    android:textSize="8dp"
+    android:textColor="#777777"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/second_3"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="218dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:fontFamily="@font/pretendardVariable"
+    android:textSize="11dp"
+    android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/profile"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/heart"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="0dp"
+        android:src="@drawable/devider2"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="33dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/button1"
+        android:text="1/15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/pretendardVariable"
+        android:textSize="8dp"
+        android:textColor="#6E6E6E"/>
+    
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="50dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="일본, 도쿄"
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

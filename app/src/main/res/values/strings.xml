@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">for_arom</string>
+    <string name="first_title">어디로 떠나시나요?</string>
+    <string name="country_title">나라</string>
+    <string name="city_title">도시</string>
+    <string name="triptime_title">여행 기간을 선택해 주세요</string>
+    <string name="write">글을 작성해 주세요</string>
+    <string name="second_1">도쿄 디즈니랜드 같이 가요!</string>
+    <string name="second_2">이호두 2023.12.01       11:48</string>
+    <string name="second_3">도쿄 디즈니랜드에서 같이 노실 분 있나요?\n하루지만 절대 잊지 못 할 만큼 재미있게 놀아요!!</string>
+</resources>

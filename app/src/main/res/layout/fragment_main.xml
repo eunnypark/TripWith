@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="119dp"
+        android:fontFamily="@font/pretendardVariable"
+        android:text="@string/first_title"
+        android:textSize="16dp"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="167dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/pretendardVariable"
+        android:text="@string/country_title"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#788EC7"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/pretendardVariable"
+        android:text="@string/city_title"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#788EC7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/pretendardVariable"
+        android:text="@string/triptime_title"
+        android:textSize="16dp"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pretendardVariable"
+        android:text="@string/write"
+        android:textColor="#757575"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="682dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/airplane"
+        tools:layout_marginStart="151dp"
+        tools:layout_marginTop="121dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/pencil"
+        tools:layout_marginStart="163dp"
+        tools:layout_marginTop="684dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:src="@drawable/devider"
+        tools:layout_marginStart="24dp"
+        tools:layout_marginTop="290dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:src="@drawable/devider"
+        tools:layout_marginStart="24dp"
+        tools:layout_marginTop="146dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:src="@drawable/devider"
+        tools:layout_marginStart="24dp"
+        tools:layout_marginTop="709dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:theme="@style/CalenderViewCustom"
+        app:mcv_dateTextAppearance="@style/CalenderViewDateCustomText"
+        app:mcv_firstDayOfWeek="sunday"
+        app:mcv_leftArrow="@drawable/ic_arrow_left"
+        app:mcv_rightArrow="@drawable/ic_arrow_right_cal"
+        app:mcv_selectionMode="range"
+        app:mcv_showOtherDates="all"
+        app:mcv_weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
