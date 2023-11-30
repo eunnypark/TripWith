@@ -12,6 +12,12 @@
         android:theme="@style/Theme.TripWith"
         tools:targetApi="31">
         <activity
+            android:name=".MyPageEmpty"
+            android:exported="false" />
+        <activity
+            android:name=".MyPageEdit"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,9 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".NotificationChannel"></activity>
-        <activity android:name=".MyPage"></activity>
     </application>
 
 </manifest>
