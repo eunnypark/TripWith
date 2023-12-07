@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="게시판"
+
+        android:id="@+id/bulletin"/>
+
+    <item android:title="홈"
+        android:id="@+id/home"/>
+
+    <item android:title="설정"
+        android:id="@+id/settings"/>
+
+</menu>

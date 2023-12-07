@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@drawable/galleryicon"
+        android:title="라이브러리에서 선택"/>
+
+    <item
+        android:id="@+id/nav_delete"
+        android:icon="@drawable/deleteicon"
+        android:title="현재 사진 삭제"/>
+
+</menu>
