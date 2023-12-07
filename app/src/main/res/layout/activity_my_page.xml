@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyPage">
+
+    <ImageView
+        android:id="@+id/profileImg"
+        android:layout_width="411dp"
+        android:layout_height="411dp"
+        android:layout_marginBottom="440dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/profileimg" />
+
+    <ImageView
+        android:id="@+id/profileBoard"
+        android:layout_width="411dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583"
+        app:srcCompat="@drawable/profileboard" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="200dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/profileBoard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/profileImg"
+        app:layout_constraintTop_toTopOf="@id/profileImg"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/setting" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="최아롬"
+        android:textColor="#788EC7"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileBoard"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_editor_absoluteX="25dp"
+        app:layout_editor_absoluteY="405dp" />
+
+    <ImageView
+        android:id="@+id/instaLogo"
+        android:layout_width="12dp"
+        android:layout_height="12.65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/instaId"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profileBoard"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_editor_absoluteX="24dp"
+        app:layout_editor_absoluteY="445dp"
+        app:srcCompat="@drawable/insta" />
+
+    <TextView
+        android:id="@+id/instaId"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="200dp"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="\@alomzzhang"
+        android:textColor="#788EC7"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profileBoard"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_editor_absoluteX="40dp"
+        app:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="17dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="성별"
+        android:textColor="#AEC4FB"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileBoard"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="17dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="370dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="나이"
+        android:textColor="#AEC4FB"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gender"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="17dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="370dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="위치"
+        android:textColor="#AEC4FB"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mbti"
+        android:layout_width="24dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="363dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="MBTI"
+        android:textColor="#AEC4FB"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="17dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="370dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="소개"
+        android:textColor="#AEC4FB"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mbti"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/introductionText"
+        android:layout_width="194dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="193dp"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="북적북적한 것 보다 조용한 걸 선호해요!  \n숨겨진 맛집 찾는 걸 좋아해요. 그리고 잘 찾아요..!  \n\n저랑 여행스타일 맞으신 분들은 같이 여행해요~ :^)"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introduction"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/editBtn"
+        android:layout_width="23dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="top"
+        android:text="편집"
+        android:textColor="#788EC7"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileBoard"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/genderBox"
+        android:layout_width="42dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/editbox"
+        android:fontFamily="@font/pretendard_regular"
+        android:gravity="center"
+        android:text="여성"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileBoard"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/ageBox"
+        android:layout_width="45dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/editbox"
+        android:fontFamily="@font/pretendard_regular"
+        android:gravity="center"
+        android:text="20대"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderBox"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/locationBox"
+        android:layout_width="81dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/editbox"
+        android:fontFamily="@font/pretendard_regular"
+        android:gravity="center"
+        android:text="대한민국, 서울"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageBox"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <TextView
+        android:id="@+id/mbtiBox"
+        android:layout_width="43dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/editbox"
+        android:fontFamily="@font/pretendard_regular"
+        android:gravity="center"
+        android:text="ISFJ"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationBox"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/ThemeOverlay.MaterialComponents.Toolbar.Primary"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/navigationbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/profileBoard"
+        app:layout_constraintTop_toBottomOf="@+id/introductionText"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:id="@+id/boardLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="23dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/profileBoard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/profileBoard"
+            app:layout_constraintTop_toBottomOf="@+id/introductionText"
+            app:layout_constraintVertical_bias="0.027">
+
+            <ImageView
+                android:id="@+id/board"
+                android:layout_width="21dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/boardicon" />
+
+            <TextView
+                android:id="@+id/boardText"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:fontFamily="@font/pretendard_regular"
+                android:text="게시판"
+                android:textColor="#99C2C2C2"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/homeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="23dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/profileBoard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/profileBoard"
+            app:layout_constraintTop_toBottomOf="@+id/introductionText"
+            app:layout_constraintVertical_bias="0.027">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="21dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/homeicon" />
+
+            <TextView
+                android:id="@+id/homeText"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/pretendard_regular"
+                android:text="홈"
+                android:textColor="#99C2C2C2"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mypageLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="60dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/profileBoard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/profileBoard"
+            app:layout_constraintTop_toBottomOf="@+id/introductionText"
+            app:layout_constraintVertical_bias="0.027">
+
+            <ImageView
+                android:id="@+id/mypage"
+                android:layout_width="21dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mypageicon" />
+
+            <TextView
+                android:id="@+id/mypageText"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:fontFamily="@font/pretendard_regular"
+                android:text="마이페이지"
+                android:textColor="#99C2C2C2"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

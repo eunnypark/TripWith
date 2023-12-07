@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:id="@+id/selectImg"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="yourMethod"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/galleryicon"
+            android:layout_marginLeft="11dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="라이브러리에서 선택"
+            android:textSize="7dp"
+            android:textColor="#BEBEBE"
+            android:fontFamily="@font/pretendard_regular"
+            android:layout_marginLeft="4dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line3"
+        android:layout_marginTop="32dp"/>
+
+    <LinearLayout
+        android:id="@+id/deleteImg"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="yourMethod"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/deleteicon"
+            android:layout_marginLeft="11dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="현재 사진 삭제"
+            android:textSize="7dp"
+            android:textColor="#FF6E6E"
+            android:fontFamily="@font/pretendard_regular"
+            android:layout_marginLeft="4dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
